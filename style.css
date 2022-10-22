@@ -1,0 +1,114 @@
+.back {
+  /* background-color: rgb(197, 255, 252); */
+  background-image: url(IMG_0200.JPG);
+  background-size: cover;
+
+  text-align: center;
+  position: relative;
+}
+
+/* .textbox {
+  background-color: aliceblue;
+  width: 90%;
+  height: 100px;
+  position: relative;
+} */
+
+.mainbutton {
+  font-size: 5vw;
+  font-family: "HG正楷書体-PRO";
+  font-weight: 1000;
+  border: solid 0.5vw rgb(26, 33, 36);
+  border-radius: 10px;
+  padding: 1vw;
+  height: 8vw;
+  position: relative;
+  top: 5vw;
+  background-color: rgb(255, 255, 166);
+}
+
+.QBox {
+  position: relative;
+  top: 10vw;
+  width: 35vw;
+  height: 45vw;
+  left: 2vw;
+}
+
+.LeftQBox {
+  text-align: left;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+  /* top: 10vw; */
+  width: 35vw;
+  height: 45vw;
+  /* left: 2vw; */
+  position: absolute;
+}
+
+.RightQBox {
+  text-align: left;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+
+  width: 35vw;
+  height: 45vw;
+  left: 60vw;
+  position: absolute;
+}
+
+.InqBox {
+  font-size: 4vw;
+  font-weight: 800;
+  font-family: "HG正楷書体-PRO";
+
+  /* border: solid 0.5vw rgb(246, 246, 246); */
+  text-align: right;
+  padding: 2vw;
+  height: 7vw;
+  width: 35vw;
+  position: relative;
+  top: 1vw;
+  border-bottom: 0.4vw solid black;
+}
+
+.NameTag {
+  font-size: 4vw;
+  font-weight: 800;
+  font-family: "HG正楷書体-PRO";
+  left: 1vw;
+  top: 1vw;
+  /* border: solid 0.5vw rgb(246, 246, 246); */
+
+  padding: 2vw;
+  height: 7vw;
+  width: 34vw;
+  position: relative;
+  top: 2vw;
+}
+
+.furi {
+  position: absolute;
+  font-size: 1vw;
+  font-weight: 300;
+  left: 24vw;
+  top: 2vw;
+  font-family: "HG正楷書体-PRO";
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
